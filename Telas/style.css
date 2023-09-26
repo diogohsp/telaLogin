@@ -26,9 +26,14 @@ main{
 
 .left{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     width: 50vw;
     align-items: center;
+}
+
+.imagem{
+    width: 35vw;
 }
 
 label{
@@ -59,9 +64,10 @@ button{
 .card-login{
     display: flex;
     justify-content: center;
+    margin-top: 25px;
     width: 35vw;
-    height: 40vh;
-    background-color: #7db4b5;
+    height: 44vh;
+    background-color: #6794f3;
     border-radius: 10px;
 }
 
@@ -77,7 +83,7 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 0.5vh;
+    margin-bottom: 50px;
 }
 
 button:hover{
