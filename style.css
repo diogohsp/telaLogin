@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+main{
+    display: flex;
+    height: 100vh;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    align-items: center;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+input{
+    background-color: rgb(206, 206, 206);
+    height: 35px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+button{
+    background-color: rgb(206, 206, 206);
+    height: 35px;
+}
+button:hover{
+    background-color: #8f8f8f;
+}
+
+#user{
+    margin-bottom: 1em;
+}
+
+#senha{
+    margin-bottom:1em;
+}
