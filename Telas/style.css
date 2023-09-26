@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Josefin+Sans:wght@400;700&family=Noto+Sans&family=Pacifico&family=VT323&display=swap');
+
+body{
+    background-color: #e0eff1;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+main{
+    display: flex;
+    height: 100vh;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;    
+}
+
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 75px; 
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    align-items: center;
+}
+
+label{
+    font-size: 25px;
+}
+
+input{
+    display: flex;
+    justify-content: center;
+    background-color: #e0eff1;
+    height: 4vh;
+    width: 25vw;
+    border-radius: 10px;
+    border-color: #080d0d;
+}
+
+button{
+    background-color: #e0eff1;
+    height: 5vh;
+    width: 25vw;
+    font-size: medium;
+    border-color: #080d0d;
+}
+
+
+/*Card login */
+
+.card-login{
+    display: flex;
+    justify-content: center;
+    width: 35vw;
+    height: 40vh;
+    background-color: #7db4b5;
+    border-radius: 10px;
+}
+
+.titulo-card{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    letter-spacing: 3.5px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 0.5vh;
+}
+
+button:hover{
+    background-color: #000000;
+    color: #7db4b5;
+    
+}
+
+#user{
+    display: flex;
+    margin-bottom: 1em;
+    justify-content: center;
+}
+
+#senha{
+    margin-bottom:1em;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;  
+}
+
+.botaoLogar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+    border-radius: 10px;
+}
+
+
+/*TELA LOGADO */
+
+.titulo_reserva{
+    display: flex;
+    font-size: 75px; 
+}
+
+.main_logado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    margin-left: 25vw;
+}
